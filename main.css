@@ -65,6 +65,12 @@ h2 {
   padding: 12px 0 12px 0;
 }
 
+.intro img {
+  position: absolute;
+  left: 250px;
+  bottom: -550px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
