@@ -33,6 +33,7 @@ h2 {
 
 .intro {
   background-color: hsl(256, 26%, 20%);
+  position: relative;
   color: white;
   height: 500px;
   display: flex;
@@ -69,12 +70,12 @@ h2 {
 .intro img {
   position: absolute;
   left: 250px;
-  bottom: -550px;
+  bottom: -180px;
 }
 
 .cardsContainer {
   text-align: center;
-  padding-top: 120px;
+  padding: 120px 15px 0 15px;
 }
 
 .cardsContainer h2 {
@@ -87,8 +88,20 @@ h2 {
   margin-top: 50px;
 }
 
+.cardsContainer img {
+  padding-bottom: 20px;
+}
+
 .cardsContainer .cardTitle {
+  font-family: 'DM Serif Display', serif;
   display: block;
+  font-weight: 400;
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+.cardsContainer .cardText {
+  line-height: 1.6;
 }
 
 .cardsContainer hr {
