@@ -116,23 +116,31 @@ h2 {
 }
 
 .infoContainer {
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
-  background-color: hsl(256, 26%, 20%);
   box-sizing: border-box;
   width: 90%;
   text-align: center;
   align-content: center;
   justify-content: center;
   height: 350px;
+  background: url('./images/bg-pattern-how-we-work-mobile.svg') right top
+    no-repeat hsl(256, 26%, 20%);
 }
 
 .infoContainer input {
+  margin-top: 50px;
   align-self: center;
   width: 150px;
   background-color: hsl(256, 26%, 20%);
   color: white;
   padding: 12px 0 12px 0;
+}
+
+.infoContainer h2 {
+  color: white;
+  line-height: 1;
 }
 
 .attribution {
