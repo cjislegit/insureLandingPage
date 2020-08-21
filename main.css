@@ -116,15 +116,23 @@ h2 {
 }
 
 .infoContainer {
+  display: flex;
+  flex-direction: column;
   background-color: hsl(256, 26%, 20%);
   box-sizing: border-box;
   width: 90%;
   text-align: center;
   align-content: center;
+  justify-content: center;
   height: 350px;
 }
 
-.infoContainer div {
+.infoContainer input {
+  align-self: center;
+  width: 150px;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  padding: 12px 0 12px 0;
 }
 
 .attribution {
