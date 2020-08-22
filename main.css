@@ -143,6 +143,24 @@ h2 {
   line-height: 1;
 }
 
+footer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+footer .footerLogo {
+  display: flex;
+  justify-content: center;
+}
+
+footer .footerSocials {
+  display: flex;
+  justify-content: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
