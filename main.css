@@ -149,6 +149,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background: hsl(0, 0%, 98%) url('./images/bg-pattern-footer-mobile.svg') top
+    no-repeat;
 }
 
 footer .footerLogo {
