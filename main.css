@@ -151,16 +151,30 @@ footer {
   align-content: center;
   background: hsl(0, 0%, 98%) url('./images/bg-pattern-footer-mobile.svg') top
     no-repeat;
+  padding-top: 90px;
 }
 
 footer .footerLogo {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 footer .footerSocials {
   display: flex;
   justify-content: center;
+}
+
+footer .facebook {
+  margin-right: 15px;
+}
+
+footer .twitter {
+  margin-right: 15px;
+}
+
+footer .pinterest {
+  margin-right: 15px;
 }
 
 .attribution {
