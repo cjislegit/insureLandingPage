@@ -27,6 +27,37 @@ h2 {
   justify-self: end;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  background: hsl(270, 9%, 17%) url('./images/bg-pattern-mobile-nav.svg')
+    no-repeat bottom;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  height: 89vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu ul li {
+  width: 90%;
+  align-self: center;
+  margin-top: 20px;
+  padding: 15px 0 15px 0;
+  border: solid thin hsl(270, 9%, 17%);
+}
+.menu li:hover {
+  border: solid thin;
+}
+
 .hero img {
   display: block;
 }
