@@ -28,7 +28,7 @@ h2 {
 }
 
 .menu {
-  display: flex;
+  display: none;
   justify-content: center;
   z-index: 1;
   background: hsl(270, 9%, 17%) url('./images/bg-pattern-mobile-nav.svg')
