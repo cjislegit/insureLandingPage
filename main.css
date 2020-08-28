@@ -33,6 +33,7 @@ h2 {
   z-index: 1;
   background: hsl(270, 9%, 17%) url('./images/bg-pattern-mobile-nav.svg')
     no-repeat bottom;
+  position: relative;
 }
 
 .menu ul {
@@ -56,6 +57,19 @@ h2 {
 }
 .menu li:hover {
   border: solid thin;
+}
+
+@keyframes slideIn {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.slide {
+  animation: slideIn 0.5s;
 }
 
 .hero img {

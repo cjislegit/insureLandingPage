@@ -10,6 +10,7 @@ const toggleMobileMenu = () => {
   } else {
     menu.style.display = 'flex';
     img.src = '/images/icon-close.svg';
+    menu.classList.add('slide');
   }
 };
 
