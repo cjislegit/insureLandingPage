@@ -118,10 +118,14 @@ h2 {
   padding: 12px 0 12px 0;
 }
 
-.intro img {
+.intro .introRightMobile {
   position: absolute;
   left: 250px;
   bottom: -180px;
+}
+
+.intro .introDesktop {
+  display: none;
 }
 
 .cardsContainer {
@@ -286,5 +290,30 @@ footer ul li {
 
   .desktopMenu li:last-child {
     border: solid thin;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .intro {
+    height: 600px;
+    text-align: start;
+    padding: 0 30px 0 30%;
+  }
+
+  .intro div {
+    width: 45%;
+  }
+
+  .intro input {
+    align-self: start;
+  }
+
+  .intro .introDesktop {
+    display: block;
+    position: absolute;
+    right: 150px;
+    bottom: -150px;
   }
 }
