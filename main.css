@@ -9,6 +9,12 @@ html {
   box-sizing: border-box;
 }
 
+.pageContainer {
+  max-width: 1440px;
+  justify-self: center;
+  margin: 0 auto;
+}
+
 h2 {
   font-family: 'DM Serif Display', serif;
   font-weight: 400;
@@ -297,23 +303,40 @@ footer ul li {
   }
 
   .intro {
+    display: grid;
     height: 600px;
     text-align: start;
-    padding: 0 30px 0 30%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    padding: 0 30px 0 10%;
+    align-items: center;
+    justify-items: start;
+    background: hsl(256, 26%, 20%);
+  }
+
+  .intro .introContainer {
+    width: 100%;
+  }
+
+  .intro h2 {
+    font-size: 5.5em;
+    line-height: 1;
   }
 
   .intro div {
-    width: 45%;
   }
 
   .intro input {
-    align-self: start;
   }
 
   .intro .introDesktop {
     display: block;
     position: absolute;
-    right: 150px;
+    right: 5%;
     bottom: -150px;
+  }
+
+  .intro .introRightMobile {
+    display: none;
   }
 }
