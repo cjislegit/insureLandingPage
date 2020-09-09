@@ -131,7 +131,9 @@ h2 {
   bottom: -180px;
 }
 
-.intro .introDesktop {
+.intro .introDesktop,
+.intro .introLeftDesktop,
+.intro .introRightDesktop {
   display: none;
 }
 
@@ -313,6 +315,7 @@ footer ul li {
     align-items: center;
     justify-items: start;
     background: hsl(256, 26%, 20%);
+    overflow: hidden;
   }
 
   .intro .introContainer {
@@ -335,6 +338,19 @@ footer ul li {
     position: absolute;
     right: 5%;
     bottom: -150px;
+  }
+
+  .intro .introLeftDesktop {
+    display: block;
+    position: absolute;
+    top: 400px;
+  }
+
+  .intro .introRightDesktop {
+    display: block;
+    position: absolute;
+    right: -90px;
+    top: -90px;
   }
 
   .intro .introRightMobile {
