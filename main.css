@@ -355,6 +355,7 @@ footer ul li {
     grid-template-rows: auto auto;
     grid-template-columns: auto auto auto;
     text-align: start;
+    justify-content: space-evenly;
   }
 
   .cardsContainer h2 {
@@ -370,5 +371,6 @@ footer ul li {
     grid-row-start: 2;
     text-align: start;
     margin-top: 40px;
+    width: 95%;
   }
 }
