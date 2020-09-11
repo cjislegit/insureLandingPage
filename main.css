@@ -147,7 +147,6 @@ h2 {
 }
 
 .cardsContainer .card {
-  align-content: center;
   box-sizing: border-box;
   margin-top: 50px;
 }
@@ -327,12 +326,6 @@ footer ul li {
     line-height: 1;
   }
 
-  .intro div {
-  }
-
-  .intro input {
-  }
-
   .intro .introDesktop {
     display: block;
     position: absolute;
@@ -355,5 +348,27 @@ footer ul li {
 
   .intro .introRightMobile {
     display: none;
+  }
+
+  .cardsContainer {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: start;
+  }
+
+  .cardsContainer h2 {
+    margin-bottom: 0;
+  }
+
+  .cardsContainer hr {
+    max-width: 100px;
+    margin: 0px;
+  }
+
+  .cardsContainer .card {
+    grid-row-start: 2;
+    text-align: start;
+    margin-top: 40px;
   }
 }
