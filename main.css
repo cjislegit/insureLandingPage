@@ -270,7 +270,7 @@ footer ul li {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 1357px) {
+@media only screen and (min-width: 1280px) {
   .navBar {
     max-width: 100vw;
     padding: 0 150px 0 150px;
@@ -333,17 +333,12 @@ footer ul li {
     bottom: -150px;
   }
 
-  .intro .introLeftDesktop {
-    display: block;
-    position: absolute;
-    top: 400px;
-  }
-
   .intro .introRightDesktop {
     display: block;
     position: absolute;
     right: -90px;
     top: -90px;
+    z-index: 1;
   }
 
   .intro .introRightMobile {
@@ -356,6 +351,22 @@ footer ul li {
     grid-template-columns: auto auto auto;
     text-align: start;
     justify-content: space-evenly;
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+
+  .cardsContainer .introDesktop {
+    display: block;
+    position: absolute;
+    right: 5%;
+    bottom: -150px;
+  }
+
+  .cardsContainer .introLeftDesktop {
+    display: block;
+    position: absolute;
+    top: 490px;
+    left: -10px;
   }
 
   .cardsContainer h2 {
