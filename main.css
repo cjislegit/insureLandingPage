@@ -131,8 +131,6 @@ h2 {
   bottom: -180px;
 }
 
-.intro .introDesktop,
-.intro .introLeftDesktop,
 .intro .introRightDesktop {
   display: none;
 }
@@ -171,6 +169,11 @@ h2 {
   width: 40%;
   color: hsl(0, 0%, 98%);
   margin-bottom: 25px;
+}
+
+.cardsContainer .introDesktop,
+.cardsContainer .introLeftDesktop {
+  display: none;
 }
 
 .info {
@@ -321,6 +324,10 @@ footer ul li {
     width: 100%;
   }
 
+  .intro .introContainer div {
+    width: 95%;
+  }
+
   .intro h2 {
     font-size: 5.5em;
     line-height: 1;
@@ -353,19 +360,20 @@ footer ul li {
     justify-content: space-evenly;
     padding-right: 90px;
     padding-left: 90px;
+    position: relative;
   }
 
   .cardsContainer .introDesktop {
     display: block;
     position: absolute;
     right: 5%;
-    bottom: -150px;
+    bottom: 300px;
   }
 
   .cardsContainer .introLeftDesktop {
     display: block;
     position: absolute;
-    top: 490px;
+    top: -180px;
     left: -10px;
   }
 
