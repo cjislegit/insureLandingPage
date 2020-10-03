@@ -89,6 +89,10 @@ h2 {
   margin: auto;
 }
 
+.hero .introDesktop {
+  display: none;
+}
+
 .intro {
   background-color: hsl(256, 26%, 20%);
   position: relative;
@@ -273,7 +277,18 @@ footer ul li {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1200px) {
+  .hero .introDesktop {
+    display: block;
+    width: 100%;
+  }
+
+  .hero .introMobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   .navBar {
     max-width: 100vw;
     padding: 0 150px 0 150px;
@@ -367,7 +382,7 @@ footer ul li {
     display: block;
     position: absolute;
     right: 5%;
-    bottom: 300px;
+    bottom: 500px;
   }
 
   .cardsContainer .introLeftDesktop {
@@ -375,6 +390,10 @@ footer ul li {
     position: absolute;
     top: -180px;
     left: -10px;
+  }
+
+  .cardsContainer .cardsTitle {
+    margin-top: 170px;
   }
 
   .cardsContainer h2 {
