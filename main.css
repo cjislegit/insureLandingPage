@@ -312,10 +312,16 @@ footer ul li {
 
   .navBar .desktopMenu ul li {
     padding: 8px 15px 8px 15px;
+    cursor: pointer;
   }
 
   .desktopMenu li:last-child {
     border: solid thin;
+  }
+
+  .desktopMenu li:last-child:hover {
+    color: white;
+    background-color: hsl(256, 26%, 20%);
   }
 
   .hero {
@@ -365,6 +371,12 @@ footer ul li {
 
   .intro .introRightMobile {
     display: none;
+  }
+
+  .intro .introContainerButton:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: white;
+    cursor: pointer;
   }
 
   .cardsContainer {
@@ -429,6 +441,12 @@ footer ul li {
     justify-self: end;
   }
 
+  .infoContainer .infoContainerButton:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: white;
+    cursor: pointer;
+  }
+
   footer {
     display: grid;
     grid-template-rows: auto auto auto;
@@ -454,6 +472,12 @@ footer ul li {
   footer .footerSocials {
     justify-self: end;
     width: auto;
+  }
+
+  footer .footerSocials img:hover {
+    filter: brightness(0) saturate(100%) invert(12%) sepia(7%) saturate(3759%)
+      hue-rotate(215deg) brightness(97%) contrast(89%);
+    cursor: pointer;
   }
 
   footer hr {
