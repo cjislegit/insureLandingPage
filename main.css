@@ -489,4 +489,8 @@ footer ul li {
   footer ul {
     text-align: left;
   }
+
+  footer ul li:hover {
+    cursor: pointer;
+  }
 }
