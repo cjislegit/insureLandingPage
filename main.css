@@ -301,6 +301,7 @@ footer ul li {
   .navBar .desktopMenu {
     display: flex;
     justify-content: end;
+    justify-self: end;
   }
 
   .navBar .desktopMenu ul {
