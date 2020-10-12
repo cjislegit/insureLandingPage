@@ -67,7 +67,7 @@ h2 {
   padding: 15px 0 15px 0;
   border: solid thin hsl(270, 9%, 17%);
 }
-.menu li:hover {
+.menu li:last-child {
   border: solid thin;
 }
 
