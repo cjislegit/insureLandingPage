@@ -139,6 +139,10 @@ h2 {
   display: none;
 }
 
+.intro .introMobile {
+  display: none;
+}
+
 .cardsContainer {
   text-align: center;
   padding: 120px 15px 0 15px;
@@ -493,5 +497,15 @@ footer ul li {
 
   footer ul li:hover {
     cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1270px) {
+  .cardsContainer .introDesktop {
+    display: none;
+  }
+
+  .intro .introMobile {
+    display: block;
   }
 }
